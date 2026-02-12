@@ -11,5 +11,3 @@ a = 10
 b = 20
 smaller = a if a < b else b
 print("Smaller number is", smaller)
-
-
