@@ -8,7 +8,6 @@ class Swim:
 
 class Duck(Fly, Swim):
     pass
-
 d = Duck()
 d.fly()
 d.swim()

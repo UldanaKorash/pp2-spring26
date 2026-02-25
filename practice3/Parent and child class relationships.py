@@ -4,6 +4,5 @@ class Animal:
 
 class Cat(Animal):
     pass
-
 c = Cat()
 c.speak()

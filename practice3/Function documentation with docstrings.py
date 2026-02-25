@@ -1,11 +1,11 @@
 def is_palindrome(word):
     return word == word[::-1]
-print(is_palindrome("level"))
+print(is_palindrome("level")) 
 
 
 def average(numbers):
     return sum(numbers) / len(numbers)
-print(average([10, 20, 30]))
+print(average([10, 20, 30])) 
 
 
 def factorial(n):

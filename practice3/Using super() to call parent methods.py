@@ -2,10 +2,12 @@ class Animal:
     def __init__(self, name):
         self.name = name
 
+
 class Dog(Animal):
     def __init__(self, name, breed):
         super().__init__(name)
         self.breed = breed
 
+
 d = Dog("Rex", "Husky")
-print(d.name, d.breed)
+print(d.name, d.breed) 

@@ -4,8 +4,6 @@ class Person:
         self.age = age
 
 p = Person("Ali", 20)
-
-p.age = 21      # modify
-del p.name      # delete
-
+p.age = 21      
+del p.name      
 print(p.age)
