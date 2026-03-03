@@ -13,5 +13,3 @@ import json
 fruits = ["apple", "banana", "cherry"]
 json_list = json.dumps(fruits)
 print("JSON list:", json_list)
-
-
