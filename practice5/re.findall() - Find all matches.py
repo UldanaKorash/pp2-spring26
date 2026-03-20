@@ -2,7 +2,7 @@ import re
 text = "Contact: support@university.kz, admin@university.kz, helpdesk@mail.com"
 pattern = r'[\w\.-]+@[\w\.-]+\.\w{2,}'
 matches = re.findall(pattern, text)
-print("All emails found:", matches)
+print("All emails found:", matches) 
 
 
 import re

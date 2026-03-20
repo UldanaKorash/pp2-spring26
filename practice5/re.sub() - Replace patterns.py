@@ -8,7 +8,7 @@ print("After:", cleaned)
 import re
 text = "Room101, Room202, Room303"
 masked = re.sub(r'\d+', '#', text)
-print("Masked text:", masked)
+print("Masked text:", masked) #Masked text: Room# , 
 
 
 

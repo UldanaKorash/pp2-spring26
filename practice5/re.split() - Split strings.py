@@ -1,7 +1,7 @@
 import re
 text = "Python is fun and powerful"
 words = re.split(r'\s+', text)
-print("Words:", words)
+print("Words:", words) #Words: ['Python', 'is', 'fun', 'and', 'powerful']
 
 
 import re

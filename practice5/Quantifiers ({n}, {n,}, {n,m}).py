@@ -2,7 +2,7 @@ import re
 text = "Years: 1999, 2023, 76, 2026"
 pattern = r'\b\d{4}\b'
 matches = re.findall(pattern, text)
-print("4-digit years:", matches)
+print("4-digit years:", matches) #4-digit years: ['1999', '2023', '2026']
 
 
 import re

@@ -12,5 +12,3 @@ WARNING: Low disk space"""
 pattern = r'^(ERROR|WARNING)'
 matches = re.findall(pattern, text, flags=re.MULTILINE)
 print("Critical logs:", matches)
-
-
