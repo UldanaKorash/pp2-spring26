@@ -1,1 +1,1 @@
-player_img = pygame.image.load("c:\Users\user\Downloads\clock.png")
+url = "c:\Users\user\Downloads\clock.png"
