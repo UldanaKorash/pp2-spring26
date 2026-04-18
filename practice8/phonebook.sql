@@ -27,7 +27,7 @@ END;
 $$;
 
 CREATE OR REPLACE PROCEDURE insert_new_users(names VARCHAR[], phones VARCHAR[])
-LANGUAGE plpgsql AS $$
+LANGUAGE plpgsql AS $$()
 DECLARE 
     i INT;
     invalid_data TEXT[] := ARRAY[]::TEXT[];
