@@ -10,12 +10,7 @@ volume = 0.5
 pygame.mixer.music.set_volume(volume)
 pygame.mixer.init()
 
-tracks = [{"music":"music/Bruno_Mars_-_Risk_It_All_80946687.mp3", "image":"images/brunomars-riskitall.jpg"}, 
-          {"music":"music/BTS - Mikrokosmos.mp3", "image":"images/mikrokosmos.png"}, 
-          {"music":"music/BTS - Pied Piper.mp3", "image":"images/piedpiper.jpg"}, 
-          {"music":"music/BTS - SWIM.mp3", "image":"images/swimbts.png"}, 
-          {"music":"music/Darkhan Juzz - Bylygyp.mp3", "image":"images/djuzz.jpg"}, 
-          {"music":"music/Darkhan Juzz - Eń Sulý.mp3", "image":"images/djuzz.jpg"}, 
+tracks = [{"music":"music/BTS - SWIM.mp3", "image":"images/swimbts.png"},  
           {"music":"music/Darkhan Juzz - Úıde.mp3", "image":"images/djuzz.jpg"}]
 current_track = 0
 
